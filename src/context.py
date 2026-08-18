@@ -1,7 +1,7 @@
 from pathlib import Path
 from pypdf import PdfReader
 
-BASE_DIR = Path(__file__).resolve().parent
+BASE_DIR = Path(__file__).resolve().parent/ "contextFiles"
 
 reader = PdfReader(BASE_DIR / "linkedin.pdf")
 linkedin = ""
